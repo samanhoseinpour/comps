@@ -1,7 +1,7 @@
-import Button from './components/Button';
 import { GoSearch, GoPlus, GoGlobe } from 'react-icons/go';
+import Button from '../components/Button';
 
-const App = () => {
+const ButtonPage = () => {
   const handleSearchClick = () => {
     console.log('Query was searched.');
   };
@@ -44,4 +44,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default ButtonPage;
