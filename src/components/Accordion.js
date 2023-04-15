@@ -22,7 +22,7 @@ const Accordion = ({ items }) => {
         }}
         key={item.id}
       >
-        <div className="flex p-3 bg-gray-50 border-b items-center justify-between">
+        <div className="flex p-3 bg-gray-50 border-b items-center justify-between cursor-pointer">
           {item.label}
           {icon}
         </div>

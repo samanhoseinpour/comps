@@ -2,25 +2,17 @@ import { GoSearch, GoPlus, GoGlobe } from 'react-icons/go';
 import Button from '../components/Button';
 
 const ButtonPage = () => {
-  const handleSearchClick = () => {
-    console.log('Query was searched.');
-  };
-
-  const handleGlobalClick = () => {
-    console.log('Query was globalled');
-  };
-
   return (
     <div>
       <div>
-        <Button primary onClick={handleSearchClick}>
+        <Button primary>
           <GoSearch />
           Long
         </Button>
       </div>
 
       <div>
-        <Button secondary onMouseEnter={handleGlobalClick}>
+        <Button secondary>
           <GoGlobe />
           Short
         </Button>
